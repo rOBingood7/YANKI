@@ -1,0 +1,114 @@
+@media(max-width:1199.98px){
+    .container{
+        width: 900px;
+        background-color: aqua;
+        padding: 0;
+
+    }
+    .footer_grid a {
+        font-size: 12px;
+    }
+
+    .name {
+        width: 213px;
+        top: 310px;
+    }
+}
+
+
+
+@media(max-width:991.98px){
+    .container{
+        width: 700px;
+        
+    }
+
+    .promo {
+        min-height: 500px;
+    }
+
+    .head {
+        margin-top: 150px;
+    }
+
+    .category {
+        margin: 50px 150px;
+    }
+
+    .grid {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+
+    .name {
+        width: 274.5px;
+        top: 410px;
+    }
+
+
+    .footer_grid a {
+        font-size: 9px;
+    }
+}
+@media(max-width:767.98px){
+    .container{
+        width: 500px;
+    }
+    .left{
+        gap: 15px;
+    }
+    .left a{
+        font-size: 12px;
+    }
+    .logo{
+        max-width: 120px;
+        max-height: 25px; 
+    }
+    .right{
+        display: flex;
+        text-align: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+    
+
+    span {
+        display: none;
+    }
+
+    .name {
+        width: 242.5px;
+        top: 359px;
+    }
+
+    .about_item input {
+        width: 400px;
+    }
+
+    .btn {
+        width: 400px;
+    }
+
+    .about {
+        margin-left: 70px;
+    }
+
+
+    .footer_box {
+        margin-left: 200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+}
+@media(max-width:575.98px){
+    .container{
+        width: 100%;
+    }
+}
+
